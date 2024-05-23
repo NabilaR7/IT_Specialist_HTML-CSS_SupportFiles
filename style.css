@@ -3,6 +3,15 @@ ul{
   margin:0;
   padding:0;
   overflow:hidden;
-  background-color:light pink;
-  
+  background-color:#777;
 }
+li{
+  float:left;
+}
+li a, .dropBtn{
+  display:inline-block;
+  color: purple;
+  text-align: center;
+  padding: 12px 14px;
+}
+
