@@ -3,7 +3,7 @@ ul{
   margin:0;
   padding:0;
   overflow:hidden;
-  background-color:#777;
+  background-color:pink;
 }
 li{
   float:left;
@@ -15,7 +15,7 @@ li a, .dropBtn{
   padding: 12px 14px;
 }
 li a:hover, .dropDown:hover .dropBtn {
-  background-color: red;
+  background-color: #777;
 }
 li.dropDown{
   display:inline-block;
