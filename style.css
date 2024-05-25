@@ -1,59 +1,83 @@
-ul{
-  list-style-type:none;
-  margin:0;
-  padding:0;
-  overflow:hidden;
-  background-color:#ffe5ec;
-}
-li{
-  float:left;
-}
-li a, .dropBtn{
-  display:inline-block;
-  color: #fb6f92;
-  text-align: center;
-  padding: 12px 14px;
-}
-li a:hover, .dropDown:hover .dropBtn {
-  background-color: #e4a0b7;
-}
-li.dropDown{
-  display:inline-block;
-}
-.dropDown-content{
-  display:none;
-  position:absolute;
-  background-color:#e18aaa;
-  min-width:160px;
-  box-shadow: 0px 8px 16px 0px rgba(1,0,1,0.3);
+/* Resetting Default Styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
 }
 
-.dropDown-content a{
-  color:black;
-  display:block;
-  text-align:left;
-}
-.dropDown-content a:hover{
-  background-color:#ecbdc4;
-  color:pink;
-}
-.dropDown:hover .dropDown-content{
-  display:block;
-  
-}
-.left{
-  position: absolute;
-  left: 120px;
-  width: 200px;
-  height: 120px;
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
 }
 
-.right{
-  position: absolute;
-  right: 120px;
-  width: 200px;
-  height: 120px;
+.banner {
+    background-color: #fb6f92;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
 
+.navi {
+    background-color: #ffe5ec;
+    padding: 10px 0;
+}
 
+.navi ul {
+    list-style-type: none;
+    overflow: hidden;
+}
 
+.navi li {
+    float: left;
+}
+
+.navi li a, .dropBtn {
+    display: inline-block;
+    color: #fb6f92;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+
+.navi li a:hover, .dropDown:hover .dropBtn {
+    background-color: #e4a0b7;
+}
+
+.dropDown-content {
+    display: none;
+    position: absolute;
+    background-color: #e18aaa;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(1, 0, 1, 0.3);
+}
+
+.dropDown-content a {
+    color: black;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.dropDown-content a:hover {
+    background-color: #ecbdc4;
+    color: pink;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.left, .right {
+    width: calc(50% - 20px);
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.left {
+    order: 1;
+}
+
+.right {
+    order: 2;
+}
