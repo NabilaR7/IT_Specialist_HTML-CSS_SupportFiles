@@ -50,19 +50,19 @@ body {
 }
 
 .navi a:hover, .dropDown:hover .dropBtn {
-  background-color: #3498DB;
+  background-color: #bac4c9;
 }
 
 .dropDown-content {
   display: none;
   position: absolute;
-  background-color: #3498DB;
+  background-color: #bac4c9;
   min-width: 180px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .dropDown-content a {
-  color: #ECF0F1;
+  color: #194e5d;
   display: block;
   padding: 14px 18px;
   text-decoration: none;
