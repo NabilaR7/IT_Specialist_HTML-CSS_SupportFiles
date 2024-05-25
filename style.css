@@ -41,5 +41,19 @@ li.dropDown{
   display:block;
   
 }
+.left{
+  position: absolute;
+  left: 120px;
+  width: 200px;
+  height: 120px;
+}
+
+.right{
+  position: absolute;
+  right: 120px;
+  width: 200px;
+  height: 120px;
+}
+
 
 
